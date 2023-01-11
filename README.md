@@ -2,7 +2,7 @@
 You will build a mentoring app that enables youth and students to connect with online
 mentors for assistance with various issues, such as mental stress or academic support.
 
- ~Done~ 1. There should be a sign-up and sign-in feature for both mentors and mentees.                  
+ _Done_ 1. There should be a sign-up and sign-in feature for both mentors and mentees.                  
 
 2. The mentors can provide available slots for meetings that will be displayed next to
 their profile picture when a mentee searches for a mentor ( for example, available on
