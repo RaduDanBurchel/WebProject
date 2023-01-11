@@ -25,6 +25,14 @@ label {
     
 }
 
+.dragonBackground {
+    background-attachment: fixed;
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+.loginBackround{
+    background-image: linear-gradient(120deg, #d4fc79 0%, #ffffff88 100%);
+}
+
 .center {
     position:relative;
     left: 60px;
