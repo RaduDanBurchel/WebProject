@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <link rel="stylesheet" href="CSS Files\mentee_style.css">
 <link rel="stylesheet" href="CSS Files\login_style.css">
+<link rel="stylesheet" href="CSS Files\mentor_style.css">
 <h1 div class="center_container">
     <img src="Photos\EPIC DRAGON.png" class="img_style">
     Company Title
@@ -13,10 +14,10 @@
 
     <div class="container">  
      <form action="">
-          
-        Pick a date:  <input type = "date" name = "date"> <br> <br>
-        Pick an hour:  <input type = "time" name = "time"> <br> <br>
-        
+      <div class="flexContainer">    
+        <div> Pick a date:  <input type = "date" name = "date" required> </div>
+        <div> Pick an hour:  <input type = "time" name = "time" required> </div>
+      </div> 
         All fields are mandatory!
       <div class="spacing roundCorners"> <input type="submit" value="Add Mentoring Session" class="button1 roundCorners"> </input> </div>
        
