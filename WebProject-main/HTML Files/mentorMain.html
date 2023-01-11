@@ -1,22 +1,36 @@
 <!DOCTYPE html>
 <link rel="stylesheet" href="CSS Files\mentee_style.css">
 <link rel="stylesheet" href="CSS Files\login_style.css">
-<h1 div class="center_container">
-    <img src="Photos\EPIC DRAGON.png" class="img_style">
-    Company Title
-</h1>
+<link rel="stylesheet" href="CSS Files\mentor_style.css">
 
-<div class = "left1">
+
+<body class=dragonBackground>
+
+<div class="grid ">
+    <h1 div class="center_container2 item1">
+        <img src="Photos\EPIC DRAGON.png" class="img_style">
+        Company Title
+    </h1>
+    <div class="accountBackround roundCorners1"></div>
+    <div class="item2"><img src="Photos\Profile Pic.jpg" class="imgStyle"> </div>
+    <div class="item3"><h3> User_name </h3> </div>
+    <div class="item4">Upvotes: 
+    <div class="upvotes roundCorners1">69</div> 
+    </div>
+    <div class="item5 logout " onclick = "window.location.href = 'login.html'">Logout</div>
+</div>
+
+<div class = "left1 loginBackround roundCorners1">
     <h4>
     
         <div class=""><h2> Add a time slot for your mentoring session. </h2></div>
 
     <div class="container">  
      <form action="">
-          
-        Pick a date:  <input type = "date" name = "date"> <br> <br>
-        Pick an hour:  <input type = "time" name = "time"> <br> <br>
-        
+      <div class="flexContainer">    
+        <div> Pick a date:  <input type = "date" name = "date" class="styleDate" required> </div>
+        <div> Pick an hour:  <input type = "time" name = "time" class="styleDate" required> </div>
+      </div> 
         All fields are mandatory!
       <div class="spacing roundCorners"> <input type="submit" value="Add Mentoring Session" class="button1 roundCorners"> </input> </div>
        
@@ -24,3 +38,4 @@
     </div>   
     </h4>     
 </div>
+</body>
