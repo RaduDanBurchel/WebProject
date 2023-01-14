@@ -138,3 +138,19 @@
     border-radius: 10px;
 }
 
+.yourTimeSlots{
+    text-align: left;
+    vertical-align: top;
+}
+
+.timeSlots{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 500px;
+}
+
+
+
+  
+
