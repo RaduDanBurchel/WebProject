@@ -141,6 +141,9 @@
 .yourTimeSlots{
     text-align: left;
     vertical-align: top;
+    width: 442px;
+    margin:auto;
+
 }
 
 .timeSlots{
@@ -150,6 +153,52 @@
     height: 500px;
 }
 
+
+li{
+   display: flex;
+   flex-direction: row;
+   font-size: 19px;
+   font-weight: bold;
+}
+
+.cancelButton {
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:18px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	padding:0px 3px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+.cancelButton:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+.cancelButton:active {
+	position:relative;
+	top:1px;
+}
+
+.corners{
+    border: 2px solid;
+    width: 60px;
+    margin-right: 5%;
+    padding:3px;
+}
+
+.corners:hover{
+    background-color: #419527;
+}
+
+.time{
+    text-align: center;
+}
 
 
   
