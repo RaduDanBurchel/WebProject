@@ -121,6 +121,38 @@ textarea{
     grid-column-end:2;
 }
 
+.search{
+    grid-column-start: 2;
+}
+
+.mentorImg{
+    margin-bottom: -23px;
+    height: 69px;
+    border-radius: 10%;
+    border:#380d09;
+    border-style: groove;
+}
+
+.cornersNameMentor{
+    border: 2px solid;
+    width: fit-content;
+    width: 150px;
+    height: fit-content;
+    margin-right: 10px;
+    margin-left:10px;;
+    padding:3px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-align: left;
+    align-self: flex-start;
+
+}
+
+.betterButtons{
+    align-self: flex-start;
+    height: 35px
+}
+
 input{
     margin-left: 5px;
     margin-right: 5px;
