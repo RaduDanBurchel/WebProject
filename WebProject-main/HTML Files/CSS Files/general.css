@@ -57,6 +57,16 @@
     padding-top: 0%;
 }
 
+.right{
+    border: 4px solid;
+    width:fit-content;
+    align-self: right;
+    padding: 20px;
+    padding-bottom: 0%;
+    padding-top: 0%;
+
+}
+
 .leftNoBorder {
     width:fit-content;
     align-self: left;
@@ -78,3 +88,28 @@
     position:relative;
     left: 60px;
 }
+
+*{
+    scrollbar-width: quto;
+    scrollbar-color: #66a12b #a3b59b;
+  }
+
+  *::-webkit-scrollbar {
+    width: 13px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #a3b59b;
+
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #66a12b;
+    border-radius: 18px;
+    border: 0px none #972187;
+  }
+
+  *::-webkit-scrollbar-thumb:vertical:hover{
+    background-color:#3f3f3f
+  }
+  
