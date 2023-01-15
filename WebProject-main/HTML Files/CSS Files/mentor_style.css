@@ -211,6 +211,34 @@
     
 }
 
+.bigGrid{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    grid-template-rows: 1fr min-content;
+}
+
+.meetingRequests{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.timeSlot{
+    grid-column-start:1;
+    grid-column-end:1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.timeSlotViewer{
+    grid-column-start:1;
+    grid-column-end:1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+
+}
+
 
   
 
