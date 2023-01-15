@@ -127,6 +127,7 @@ textarea{
 
 .mentorImg{
     height:100px;
+    max-width: 78px;
     border-radius: 10%;
     border:#380d09;
     border-style: groove;
@@ -196,11 +197,13 @@ input{
     width: fit-content;
     min-width: 80px;
     margin:2px;
+    margin-left: 3px;
     padding:3px;
     overflow-x: hidden;
     overflow-y: hidden;
     text-align: center;
     align-self: flex-start;
+    background-color: #ffffff;
 
 }
 
