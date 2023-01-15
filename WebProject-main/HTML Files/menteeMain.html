@@ -1,24 +1,75 @@
 <!DOCTYPE html>
 <link rel="stylesheet" href="CSS Files\mentee_style.css">
 <link rel="stylesheet" href="CSS Files\login_style.css">
+<link rel="stylesheet" href="CSS Files\mentor_style.css">
 <link rel="stylesheet" href="CSS Files\general.css">
 
-<h1 div class="center_container">
-    <img src="Photos\EPIC DRAGON.png" class="img_style">
-    Company Title
-</h1>
+<body class=dragonBackground>
 
-<div class = "left2">
-    <h4>
-    
-        <div class="centerNoBorder"><h2> Available mentoring sessions. </h2></div>
-
-    <div class="session leftNoBorder">  
-        <div class = "">
-            Mentor name <br>
-            Date: Time:
-        </div>
-        <div> </div>
-    </div>   
-    </h4>     
+<div class="grid">
+    <h1 div class="center_container2 item1">
+        <img src="Photos\EPIC DRAGON.png" class="img_style">
+        Company Title
+    </h1>
+    <div class="accountBackround roundCorners1"></div>
+    <div class="item2"><img src="Photos\Profile Pic.jpg" class="imgStyle"> </div>
+    <div class="item3"><h3> User_name </h3> </div>
+    <div class="item4">Upvotes: 
+    <div class="upvotes roundCorners1">69</div> 
+    </div>
+    <div class="item5 logout " onclick = "window.location.href = 'login.html'">Logout</div>
 </div>
+
+<div class="bigGrid">
+
+    <div class = "right loginBackround roundCorners1 searchQuerry searchGrid">
+        <div ><h2 class="top"> Search for your mentors </h2></div>
+        <form action="" class="formRequestsMentee searchFields">  
+             Address: <input class="address" type="text" name="address1" placeholder="Address"> 
+             Job Category: <input class="address" type="text" name="address1" placeholder="Job Category"> 
+             Company Name: <input class="address" type="text" name="address1" placeholder="Company Name"> 
+             Skills: <input class="address" type="text" name="address1" placeholder="Comma Separated">
+              
+               
+            </select> 
+            
+            <input type="submit" value="Search" class="acceptButton">  
+          </form>
+    </div>
+
+    <div class = "left_mentorsForYou loginBackround roundCorners1">
+    <div class="yourTimeSlots"><h2> Mentors for you</h2></div>
+
+    <div class="meetingContainer">
+
+        <div class="input slotBackround ">
+            <div class="cornersName roundCorners1">Walter H. White</div>
+              <form action="" class="formRequests">  
+               <select name="Date" id=""  multiple class="dropDownMenu" required>
+                  <option value="1">12/9 7:30</option>
+                  <option value="2">13/9 7:30</option>
+                  <option value="3">14/9 17:30</option>
+                  <option value="4">14/9 9:30</option>
+                  <option value="5">15/9 7:30</option>
+                  <option value="6">16/9 7:30</option>
+                  <option value="7">17/9 7:30</option>
+                  <option value="8">19/9 22:53</option>
+                  <option value="9">20/9 22:53</option>
+                  <option value="10">12/12 22:53</option>
+               </select> 
+               <input type="submit" value="Enrol" class="acceptButton">  
+             </form>
+               <button class="denyButton" value="X"> Hide</button>
+               </div>
+        </div>
+      
+    </div>
+
+    <div class = "right loginBackround roundCorners1 yourRequests">
+        <div ><h2 class="top"> Search for your mentors </h2></div>
+        
+    </div>
+  
+</div>
+
+</body>
