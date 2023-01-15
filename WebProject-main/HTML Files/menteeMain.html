@@ -14,7 +14,7 @@
     <div class="accountBackround roundCorners1"></div>
     <div class="item2"><img src="Photos\Profile Pic.jpg" class="imgStyle"> </div>
     <div class="item3"><h3> User_name </h3> </div>
-    <div class="item4">Upvotes: 
+    <div class="item4">Points: 
     <div class="upvotes roundCorners1">69</div> 
     </div>
     <div class="item5 logout " onclick = "window.location.href = 'login.html'">Logout</div>
@@ -22,16 +22,28 @@
 
 <div class="bigGrid">
 
-    <div class = "right loginBackround roundCorners1 searchQuerry searchGrid">
+    <div class = "right loginBackround roundCorners1">
         <div ><h2 class="top"> Search for your mentors </h2></div>
-        <form action="" class="formRequestsMentee searchFields">  
-             Address: <input class="address" type="text" name="address1" placeholder="Address"> 
-             Job Category: <input class="address" type="text" name="address1" placeholder="Job Category"> 
-             Company Name: <input class="address" type="text" name="address1" placeholder="Company Name"> 
-             Skills: <input class="address" type="text" name="address1" placeholder="Comma Separated">
-              
+        <form action="" class="searchGrid">  
+           <div class="address"> Address: <input type="text" name="address1" placeholder="Address" size="50"> </div>
+           <div class="jobCategory">  Job Category: <input type="text" name="address1" placeholder="Job Category"> </div>
+           <div> Company Name: <input  type="text" name="address1" placeholder="Company Name"> </div>
+           <div>  Skills: <input type="text" name="address1" placeholder="Comma Separated"> </div>
+             <div> Review Scores:  <input type="range" min="0" max="5" value="5" id="myRange">
+                   Value: <span id="demo"></span>
+
+                   <script>
+                        var slider = document.getElementById("myRange");
+                        var output = document.getElementById("demo");
+                        output.innerHTML = slider.value;
+                        
+                        slider.oninput = function() {
+                        output.innerHTML = this.value;
+                        }
+                    </script>
+            </div>
                
-            </select> 
+            
             
             <input type="submit" value="Search" class="acceptButton">  
           </form>
@@ -65,10 +77,6 @@
       
     </div>
 
-    <div class = "right loginBackround roundCorners1 yourRequests">
-        <div ><h2 class="top"> Search for your mentors </h2></div>
-        
-    </div>
   
 </div>
 
