@@ -215,7 +215,7 @@
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 20px;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
 
 .meetingRequests{

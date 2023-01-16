@@ -150,7 +150,7 @@ textarea{
     padding:3px;
     overflow-x: hidden;
     overflow-y: hidden;
-    text-align: left;
+    text-align: center;
 
 }
 
@@ -215,3 +215,75 @@ input{
     display: flex;
     flex-direction: column;
 }
+
+.yourRequestEntry{
+    display: grid;
+    grid-template-columns: 170px auto 90px 90px;
+    grid-template-rows:auto auto;
+    font-size: 18;
+    font-weight: bold;
+}
+
+.descritpion{
+    border-radius: 10px;
+    border: 2px solid;
+    max-width: 470px;
+    max-height: 17px;
+    height: fit-content;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding:3px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-align: left;
+
+}
+
+.yourRequestsName{
+    grid-row : 1;
+    grid-column: 1;
+    border: 2px solid;
+    width: 150px;
+    height: fit-content;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding:3px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-align: center;
+}
+
+.denyButton1{
+
+    box-shadow:inset 0px 1px 0px 0px #caefab;
+	background:linear-gradient(to bottom, #ed6565 5%, #b81111 100%);
+	background-color:#d42a2a;
+	border-radius:19px;
+	display:inline-block;
+	cursor:pointer;
+	color:#610808;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:9px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #aade7c;
+    margin-left: 15px;
+    margin-right: 5px;
+
+}
+
+.timeDateList2{
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    background-color: #d4fc79;
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+
