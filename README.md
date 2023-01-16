@@ -11,7 +11,7 @@ Thursday at 9:00 AM and Friday at 10:00 AM).
 _Done_ 3. Mentees should be able to search for mentors based on their skills or job category,
 company, review scores, and location.
 
-_Partially Done_ 4. The mentees will first book the meeting from the website. The booking will be
+_Done_ 4. The mentees will first book the meeting from the website. The booking will be
 confirmed when the mentors accept the meeting request. In the meeting request, the
 mentors will enter the purpose of the meeting and select the available dates (as
 mentioned in point 2).
